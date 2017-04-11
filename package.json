@@ -1,0 +1,19 @@
+{
+  "name": "doctoc-atom",
+  "main": "./lib/doctoc-atom",
+  "version": "0.0.0",
+  "description": "markdown-toc-atom-plugin-with-doctoc",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "doctoc-atom:toggle"
+  },
+  "repository": "https://github.com/namazu510/doctoc-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "doctoc": "^1.3.0"
+  }
+}

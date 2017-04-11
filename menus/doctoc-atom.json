@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle doctoc-atom",
+        "command": "doctoc-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "doctoc-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "doctoc-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
